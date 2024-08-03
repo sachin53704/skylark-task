@@ -33,17 +33,17 @@
                                 <h3 class="text-center">Login</h3>
                                 <div class="row px-3">
                                     <label class="mb-1">
-                                        <h6 class="mb-0 text-sm">User Name</h6>
+                                        <h6 class="mb-0 text-sm">Email</h6>
                                     </label>
-                                    <input class="mb-4" type="text" name="username" placeholder="Enter username"  id="username" required autocomplete="username" autofocus>
-                                    <span class="text-danger text-danger username_err"></span>
+                                    <input class="mb-4" type="text" name="username" placeholder="Enter email"  id="username" required autocomplete="username" autofocus>
+                                    <span class="text-danger username_err"></span>
                                 </div>
                                 <div class="row px-3">
                                     <label class="mb-1">
                                         <h6 class="mb-0 text-sm">Password</h6>
                                     </label>
                                     <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="off">
-                                    <span class="text-danger text-danger password_err"></span>
+                                    <span class="text-danger password_err"></span>
                                 </div>
                                 <div class="row mb-3 mt-2 px-3">
                                     <button type="submit" id="loginFormSubmit" class="btn btn-blue text-center" style="margin-right: 3px">
